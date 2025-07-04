@@ -28,6 +28,7 @@ public class HeroService {
     }
 
     public Hero addHero(Hero h){
+        h.setId(null);
         return hRepo.save(h);
     }
 
