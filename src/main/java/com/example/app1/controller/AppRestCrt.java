@@ -27,6 +27,7 @@ public class AppRestCrt {
 
     @PostMapping("/hero")
     public Hero addHero(@RequestBody Hero h){
+        h.setId(null);
         return hService.addHero(h);
     }
 
