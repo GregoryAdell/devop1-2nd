@@ -31,3 +31,20 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+
+
+# Enoncé (Le reste est déjà compris plus haut)
+# target/
+.idea/
+.code/
+# .vscode/	
+.mvn/
+# .apt_generated
+# .classpath
+# .factorypath
+# .project
+.settings/
+# .springBeans
+.sts4-cache/
